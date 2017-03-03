@@ -15,6 +15,7 @@
 		EDBBC9951E6994260098852F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBBC9931E6994260098852F /* LaunchScreen.storyboard */; };
 		EDBBC9A01E6994270098852F /* Lesson_01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBBC99F1E6994270098852F /* Lesson_01Tests.m */; };
 		EDBBC9AB1E6994270098852F /* Lesson_01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBBC9AA1E6994270098852F /* Lesson_01UITests.m */; };
+		EDBBC9B91E69948B0098852F /* photo_2017-03-03_15-08-36.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDBBC9B81E69948B0098852F /* photo_2017-03-03_15-08-36.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		EDBBC9A61E6994270098852F /* Lesson_01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lesson_01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDBBC9AA1E6994270098852F /* Lesson_01UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson_01UITests.m; sourceTree = "<group>"; };
 		EDBBC9AC1E6994270098852F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDBBC9B81E69948B0098852F /* photo_2017-03-03_15-08-36.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "photo_2017-03-03_15-08-36.jpg"; path = "../../../../../Downloads/photo_2017-03-03_15-08-36.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		EDBBC9851E6994260098852F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EDBBC9B81E69948B0098852F /* photo_2017-03-03_15-08-36.jpg */,
 				EDBBC9861E6994260098852F /* main.m */,
 			);
 			name = "Supporting Files";
@@ -249,6 +252,7 @@
 				EDBBC9951E6994260098852F /* LaunchScreen.storyboard in Resources */,
 				EDBBC9921E6994260098852F /* Assets.xcassets in Resources */,
 				EDBBC9901E6994260098852F /* Main.storyboard in Resources */,
+				EDBBC9B91E69948B0098852F /* photo_2017-03-03_15-08-36.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +429,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Lesson_01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "geek.Lesson-01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Lesson_01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "geek.Lesson-01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
